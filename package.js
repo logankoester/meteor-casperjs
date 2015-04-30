@@ -25,5 +25,5 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
    api.use('tinytest');
    api.use('ldk:casperjs');
-   api.addFiles('ldk:casperjs-tests.js');
+   api.addFiles('casperjs-tests.js');
 });
