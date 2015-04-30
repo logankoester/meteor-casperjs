@@ -1,8 +1,8 @@
 Package.describe({
-   name: 'nblazer:casperjs',
+   name: 'ldk:casperjs',
    summary: 'CasperJS end to end test integration with velocity.',
    version: '0.1.6',
-   git: 'https://github.com/blazer82/meteor-casperjs.git',
+   git: 'https://github.com/logankoester/meteor-casperjs.git',
    debugOnly: true
 });
 
@@ -18,12 +18,12 @@ Package.onUse(function(api) {
       'velocity:shim@0.0.3',
       'coffeescript'
    ], 'server');
-   api.addFiles('nblazer:casperjs.coffee', 'server');
+   api.addFiles('casperjs.coffee', 'server');
    api.addFiles('sample-tests/sampleTest.coffee', 'server', {isAsset: true});
 });
 
 Package.onTest(function(api) {
    api.use('tinytest');
-   api.use('nblazer:casperjs');
-   api.addFiles('nblazer:casperjs-tests.js');
+   api.use('ldk:casperjs');
+   api.addFiles('ldk:casperjs-tests.js');
 });
