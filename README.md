@@ -2,8 +2,12 @@
 
 [CasperJS](http://casperjs.org) end to end test integration for [meteor](https://www.meteor.com) using [velocity](https://github.com/meteor-velocity/velocity).
 
+This is a fork of [blazer82/meteor-casperjs](https://github.com/blazer82/meteor-casperjs) (`nblazer:casperjs`).
+
+> Note that PhantomJS 2.0 does not support CoffeeScript tests. See https://github.com/blazer82/meteor-casperjs/issues/9
+
 ## Installation
-`meteor add nblazer:casperjs`
+`meteor add ldk:casperjs`
 
 ## Caution
 This package doesn't ship with [CasperJS](http://casperjs.org). You need to have a running CasperJS [installation](http://docs.casperjs.org/en/latest/installation.html) on your system!
