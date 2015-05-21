@@ -4,6 +4,9 @@
 
 ## Change log
 
+### 0.1.8
+ - MIT license added
+
 ### 0.1.7
  - Fixed: Compatibility with velocity:core@0.6.1
 

@@ -1,7 +1,7 @@
 Package.describe({
    name: 'ldk:casperjs',
    summary: 'CasperJS end to end test integration with velocity.',
-   version: '0.1.7',
+   version: '0.1.8',
    git: 'https://github.com/logankoester/meteor-casperjs.git',
    debugOnly: true
 });
